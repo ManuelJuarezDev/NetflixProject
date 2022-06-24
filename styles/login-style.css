@@ -1,0 +1,106 @@
+body{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/images/login/login-background.jpg');
+    background-size: cover;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    overflow: hidden;
+}
+body .bg{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.555)
+}
+
+header .logo{
+    position: absolute;
+    z-index: 1;
+}
+
+img{
+    margin-left: 50px;
+    height: 100px;
+    width: auto;
+    float: left;
+}
+
+.contenido {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.685);
+    border-radius: 4px;
+    width: 300px;
+    height: 500px;
+    padding: 60px 68px 40px;
+    
+}
+
+h1{
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+    color: white;
+} 
+
+#inputform {
+    width: 90%;
+    position: relative;
+    background: rgba(51, 51, 51, 0.733);
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: none;
+    opacity: 1;
+    font-size: 1rem;
+    color: #fff;
+    line-height: 50px;
+    padding: 12px 18px 0;
+}
+
+button {
+    
+    margin: 24px 0 12px;
+    padding: 16px;
+    color: #fff;
+    background: #e50914;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.remember-me{
+    position: relative;
+    font-size: 0.9rem;
+    color: #b3b3b3;
+    z-index: 100;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.recuerdametxt{
+    margin: 0;
+}
+.remember-me a{
+    color: #b3b3b3;
+    text-decoration: none;
+}
+
+.contenidobajo{
+    margin-top: 30px;
+
+    font-size: 0.9rem;
+    color: #b3b3b3;
+}
+
+#txtlabel{
+    padding-top: 15px;
+}
+
+.contenidobajo a{
+    color: white;
+    text-decoration: none;
+}
